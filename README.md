@@ -1,5 +1,5 @@
 # Automatic-Control-Theory
-Звенья ТАУ
+Звенья теории автоматического управления (ТАУ).
 
 Video  
 [![Automatic Control Theory, 1](https://i9.ytimg.com/vi/pbcMGc4qycg/mq2.jpg?sqp=CJiNvPkF&rs=AOn4CLAXBAj47x-vykUqlsAhlIzf3315bw)](https://youtu.be/pbcMGc4qycg "Automatic Control Theory, 1")  
