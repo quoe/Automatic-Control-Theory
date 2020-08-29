@@ -1,6 +1,19 @@
 # Automatic-Control-Theory
 Звенья теории автоматического управления (ТАУ).
 
+Представлены звенья:  
+Усилительное Звено 	tf(K, 'OutputDelay', tau)  
+Звено чистого транспортного запаздывания 	tf(1, 'OutputDelay', tau)  
+Апериодическое звено первого порядка 	tf(K, [T 1], 'OutputDelay', tau)  
+Идеальное интегрирующее звено 	tf(K, [T 0], 'OutputDelay', tau)  
+Реальное интегрирующее звено 	tf(K, [T 1 0], 'OutputDelay', tau)  
+Пропорционально-интегральное звено 	tf([K*T K], [T 0], 'OutputDelay', tau)  
+Идеальное дифференцирующее звено 	tf([K 0], 1, 'OutputDelay', tau)  
+Реальное дифференцирующее звено (дифференцирующее инерционное звено) 	tf([K 0],[T 1],'OutputDelay', tau)  
+Пропорционально-дифференциальное звено 	tf([K*T K], 1, 'OutputDelay', tau)  
+Апериодическое звено второго порядка 	tf(K, [T^2 2*ksi*T 1], 'OutputDelay', tau)  
+Интегро-дифференцирующее звено 	tf([K*T1 K], [T2 1], 'OutputDelay', tau)  
+
 Video  
 [![Automatic Control Theory, 1](https://i9.ytimg.com/vi/pbcMGc4qycg/mq2.jpg?sqp=CJiNvPkF&rs=AOn4CLAXBAj47x-vykUqlsAhlIzf3315bw)](https://youtu.be/pbcMGc4qycg "Automatic Control Theory, 1")  
 
